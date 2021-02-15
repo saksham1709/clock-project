@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: burlywood;
+}
+.container{
+    margin: auto;
+    background: url('clock2.png') no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+}
+.container1{
+    margin: auto;
+    background: url('clock1.png') no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+}
+.container2{
+    margin: auto;
+    background: url('clock.png') no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 2px;
+    transform-origin: bottom;
+}
+#hour1, #minute1, #second1{
+    position: absolute;
+    background: black;
+    border-radius: 2px;
+    transform-origin: bottom;
+}
+#hour2, #minute2, #second2{
+    position: absolute;
+    background: black;
+    border-radius: 2px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1%;
+    opacity: 0.8;
+    height: 28%;
+    top: 21.3%;
+    left: 50%;
+}
+#hour1{
+    width: 1%;
+    opacity: 0.8;
+    height: 28%;
+    top: 22%;
+    left: 49.8%;
+}
+#hour2{
+    width: 1%;
+    opacity: 0.8;
+    height: 28%;
+    top: 22%;
+    left: 49.8%;
+}
+#minute{
+    width: 1%;
+    height: 32%;
+    top: 18%;
+    left: 49.52%;
+    opacity: 0.7;
+}
+#minute1{
+    width: 1%;
+    height: 32%;
+    top: 18%;
+    left: 49.52%;
+    opacity: 0.7;
+}
+#minute2{
+    width: 1%;
+    height: 32%;
+    top: 18%;
+    left: 49.52%;
+    opacity: 0.7;
+}
+#second{
+    width: 1%;
+    height: 36%;
+    top: 14%;
+    left: 49.549%;
+    opacity: 0.6;
+}
+#second1{
+    width: 1%;
+    height: 36%;
+    top: 14%;
+    left: 49.549%;
+    opacity: 0.6;
+}
+#second2{
+    width: 1%;
+    height: 36%;
+    top: 14%;
+    left: 49.549%;
+    opacity: 0.6;
+}
